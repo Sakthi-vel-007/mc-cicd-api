@@ -1,0 +1,8 @@
+name: CICD main flow
+on:
+ push:
+  branches:
+    -dev
+    -qa
+    -uat
+    -prod
